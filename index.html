@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <video autoplay muted loop class="background-video">
+        <source src="./video/sunny.mp4" type="video/mp4" id="video-sunny">
+        <source src="./video/clouds.mp4" type="video/mp4" id="video-clouds">
+        <source src="./video/storm.mp4" type="video/mp4" id="video-storm">
+        <source src="./video/rain.mp4" type="video/mp4" id="video-rain">
+        <source src="./video/fog.mp4" type="video/mp4" id="video-fog">
+        <source src="./video/snow.mp4" type="video/mp4" id="video-snow">
+    </video>
+
+    <div class="app-wrap">
+        <header>
+            <input type="text" class="search-box" placeholder="Search for city...">
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">Milan, IT</div>
+                <div class="date">Wednesday 18 Oct</div>
+            </section>
+            <div class="current">
+                <div class="temp">15<span>°C</span></div>
+                <div class="weather">Sunny</div>
+                <div class="hi-low">14°C / 16°C</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
